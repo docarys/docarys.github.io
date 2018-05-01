@@ -1,0 +1,1117 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      <link rel="shortcut icon" href="/img/favicon.png">
+      <meta name="generator" content="docarys-, docarys-material-2.0.2">
+    
+    
+      
+        <title>Configuration - Docarys</title>
+      
+    
+    
+      <link rel="stylesheet" href="/assets/stylesheets/application.1115aa30.css">
+      
+        <link rel="stylesheet" href="/assets/stylesheets/application-palette.6079476c.css">
+      
+    
+    
+      <script src="/assets/javascripts/modernizr.1aa3b519.js"></script>
+    
+    
+      <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+      
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="orange" data-md-color-accent="indigo">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          
+            <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448"
+    viewBox="0 0 416 448" id="github">
+  <path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19-18.125
+        8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19 18.125-8.5
+        18.125 8.5 10.75 19 3.125 20.5zM320 304q0 10-3.125 20.5t-10.75
+        19-18.125 8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19
+        18.125-8.5 18.125 8.5 10.75 19 3.125 20.5zM360
+        304q0-30-17.25-51t-46.75-21q-10.25 0-48.75 5.25-17.75 2.75-39.25
+        2.75t-39.25-2.75q-38-5.25-48.75-5.25-29.5 0-46.75 21t-17.25 51q0 22 8
+        38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0
+        37.25-1.75t35-7.375 30.5-15 20.25-25.75 8-38.375zM416 260q0 51.75-15.25
+        82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5-41.75
+        1.125q-19.5 0-35.5-0.75t-36.875-3.125-38.125-7.5-34.25-12.875-30.25-20.25-21.5-28.75q-15.5-30.75-15.5-82.75
+        0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25
+        30.875q36.75-8.75 77.25-8.75 37 0 70 8 26.25-20.5
+        46.75-30.25t47.25-9.75q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34
+        99.5z" />
+</svg>
+
+          
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="http://docs.docarys.io" title="Docarys" class="md-header-nav__button md-logo">
+          
+            <img src="/" width="">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            
+              <span class="md-header-nav__topic">
+                Docarys
+              </span>
+              <span class="md-header-nav__topic">
+                Configuration
+              </span>
+            
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+  
+
+
+  <a href="https://github.com/docarys/docarys" title="Go to repository" class="md-source" data-md-source="github">
+    
+      <div class="md-source__icon">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <use xlink:href="#github" width="24" height="24"></use>
+        </svg>
+      </div>
+    
+    <div class="md-source__repository">
+      docarys/docarys
+    </div>
+  </a>
+
+
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+
+    
+    <div class="md-container">
+      
+        
+      
+      
+        
+
+  
+
+<nav class="md-tabs md-tabs--active" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="/index.html" title="Docarys" class="md-tabs__link md-tabs__link--active">
+          Docarys
+        </a>
+      
+    </li>
+  
+
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="/material/index.html" title="Material for Docarys" class="md-tabs__link">
+          Material for Docarys
+        </a>
+      
+    </li>
+  
+
+
+      
+    </ul>
+  </div>
+</nav>
+
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="drawer">
+    <span class="md-nav__button md-logo">
+      
+        <img src="/" width="">
+      
+    </span>
+    Docarys
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+  
+
+
+  <a href="https://github.com/docarys/docarys" title="Go to repository" class="md-source" data-md-source="github">
+    
+      <div class="md-source__icon">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <use xlink:href="#github" width="24" height="24"></use>
+        </svg>
+      </div>
+    
+    <div class="md-source__repository">
+      docarys/docarys
+    </div>
+  </a>
+
+
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1" checked>
+    
+    <label class="md-nav__link" for="nav-1">
+      Docarys
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-1">
+        Docarys
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="/index.html" title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="/docarys/installation.html" title="Installation" class="md-nav__link">
+      Installation
+    </a>
+  </li>
+
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+    
+    <a href="/docarys/configuration.html" title="Configuration" class="md-nav__link md-nav__link--active">
+      Configuration
+    </a>
+    
+  </li>
+
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="/docarys/get-started.html" title="Get started" class="md-nav__link">
+      Get started
+    </a>
+  </li>
+
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="/license.html" title="License" class="md-nav__link">
+      License
+    </a>
+  </li>
+
+
+        
+      </ul>
+    </nav>
+  </li>
+
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Material for Docarys
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Material for Docarys
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="/material/index.html" title="Index" class="md-nav__link">
+      Index
+    </a>
+  </li>
+
+
+        
+      </ul>
+    </nav>
+  </li>
+
+
+    
+  </ul>
+</nav>
+
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--secondary">
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#about-configuration-file" title="About configuration file" class="md-nav__link">
+    About configuration file
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+      </ul>
+    </nav>
+  
+</li>
+
+      
+        <li class="md-nav__item">
+  <a href="#configuration-parameters" title="Configuration parameters" class="md-nav__link">
+    Configuration parameters
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#site_name" title="site_name" class="md-nav__link">
+    site_name
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+      </ul>
+    </nav>
+  
+</li>
+
+        
+          <li class="md-nav__item">
+  <a href="#pages" title="pages" class="md-nav__link">
+    pages
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+      </ul>
+    </nav>
+  
+</li>
+
+        
+          <li class="md-nav__item">
+  <a href="#meta-description" title="meta.description" class="md-nav__link">
+    meta.description
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+      </ul>
+    </nav>
+  
+</li>
+
+        
+          <li class="md-nav__item">
+  <a href="#meta-author" title="meta.author" class="md-nav__link">
+    meta.author
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+      </ul>
+    </nav>
+  
+</li>
+
+        
+          <li class="md-nav__item">
+  <a href="#site_url" title="site_url" class="md-nav__link">
+    site_url
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+      </ul>
+    </nav>
+  
+</li>
+
+        
+          <li class="md-nav__item">
+  <a href="#repo_name" title="repo_name" class="md-nav__link">
+    repo_name
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+      </ul>
+    </nav>
+  
+</li>
+
+        
+          <li class="md-nav__item">
+  <a href="#repo_url" title="repo_url" class="md-nav__link">
+    repo_url
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+      </ul>
+    </nav>
+  
+</li>
+
+        
+          <li class="md-nav__item">
+  <a href="#edit_url" title="edit_url" class="md-nav__link">
+    edit_url
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+      </ul>
+    </nav>
+  
+</li>
+
+        
+          <li class="md-nav__item">
+  <a href="#copyright" title="copyright" class="md-nav__link">
+    copyright
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+      </ul>
+    </nav>
+  
+</li>
+
+        
+          <li class="md-nav__item">
+  <a href="#google_analytics" title="google_analytics" class="md-nav__link">
+    google_analytics
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+      </ul>
+    </nav>
+  
+</li>
+
+        
+      </ul>
+    </nav>
+  
+</li>
+
+      
+        <li class="md-nav__item">
+  <a href="#support-source-control-management-systems" title="Support Source Control Management systems" class="md-nav__link">
+    Support Source Control Management systems
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+      </ul>
+    </nav>
+  
+</li>
+
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/docarys/docs/blob/master/docs/docarys/configuration.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                  <h1 style="margin-bottom:0">Configuration</h1>
+                
+                <div class="content metadata">
+  
+      <span class="small" style="color:#6e6e6e"> 7 min read </span>
+  
+  
+  <span> • Contributors: </span>
+  <ul class="contributors">
+      
+          <li>
+              <img src="https://www.gravatar.com/avatar/1e1c217d5fc1a85ed31132be871eb375?d=identicon" title="Sergio Sisternes" text="Sergio Sisternes" alt="Sergio Sisternes">
+          </li>
+      
+      
+      <a href="https://github.com/docarys/docs/blob/master/docs/docarys/configuration.md" title="Edit this page">
+        <span> All </span></a>
+    
+  
+  </ul>
+</div>
+
+                <h2 id="about-configuration-file">About configuration file</h2>
+<p>The configuration file, docarys.yml, is located at project root folder.</p>
+<p>Remember, this configuration parameters has effect in both the general behaviour of Docarys (e.g. the output folder), but also in the theme (e.g. site name, description, author, theme...)</p>
+<h2 id="configuration-parameters">Configuration parameters</h2>
+<p>This is the list of default parameters that can be used with docarys and material for docarys. New paramteres can be added when customizing the theme.</p>
+<p>All configuration paramteres is sent to the them renderer, so they are effectively available once added to docarys.yml</p>
+<div class="admonition warning">
+<p class="admonition-title">Live server reload known issue</p>
+<p>At the moment, changes in docarys.yml are not being tracked by the live server. To see changes applied to docyars.yml, please stop and serve again.</p>
+</div>
+<table>
+<thead>
+<tr>
+<th>Paramater name</th>
+<th>Short description</th>
+<th>Required</th>
+<th>Default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>site_name</td>
+<td>Documentation site name</td>
+<td>Yes</td>
+<td></td>
+</tr>
+<tr>
+<td>pages</td>
+<td>Array with the site's page tree structure</td>
+<td>No</td>
+<td><code>null</code></td>
+</tr>
+<tr>
+<td>meta.description</td>
+<td>A brief description of the site</td>
+<td>No</td>
+<td><code>null</code></td>
+</tr>
+<tr>
+<td>meta.author</td>
+<td>Site author information</td>
+<td>No</td>
+<td><code>null</code></td>
+</tr>
+<tr>
+<td>site_url</td>
+<td>Canonical URL of the site</td>
+<td>No</td>
+<td><code>null</code></td>
+</tr>
+<tr>
+<td>repo_url</td>
+<td>Links the documentation site to a SCM</td>
+<td>No</td>
+<td><code>null</code></td>
+</tr>
+<tr>
+<td>repo_name</td>
+<td>Repository name in the SCM</td>
+<td>No</td>
+<td><code>null</code></td>
+</tr>
+<tr>
+<td>edit_uri</td>
+<td>Absolute base path where the edit page is found</td>
+<td>No</td>
+<td><code>null</code></td>
+</tr>
+<tr>
+<td>copyright</td>
+<td>Site copyright information</td>
+<td>No</td>
+<td><code>null</code></td>
+</tr>
+<tr>
+<td>google_analytics</td>
+<td>Google analystics tracking identifier</td>
+<td>No</td>
+<td><code>null</code></td>
+</tr>
+<tr>
+<td>theme.name</td>
+<td>Docarys theme that should be used</td>
+<td>No</td>
+<td><code>material</code></td>
+</tr>
+<tr>
+<td>theme.language</td>
+<td>Theme language</td>
+<td>No</td>
+<td><code>en</code></td>
+</tr>
+<tr>
+<td>theme.feature.tabs</td>
+<td>Enables or disables the 'tabs' feature</td>
+<td>No</td>
+<td><code>false</code></td>
+</tr>
+<tr>
+<td>theme.palette.primary</td>
+<td>Palette primary color (Material theme only)</td>
+<td>No</td>
+<td><code>null</code></td>
+</tr>
+<tr>
+<td>theme.palette.accent</td>
+<td>Palette accent color (Material theme only)</td>
+<td>No</td>
+<td><code>null</code></td>
+</tr>
+<tr>
+<td>theme.font.text</td>
+<td>Site font for text</td>
+<td>No</td>
+<td><code>null</code></td>
+</tr>
+<tr>
+<td>theme.font.code</td>
+<td>Font used in the fenced code blocks</td>
+<td>No</td>
+<td><code>null</code></td>
+</tr>
+<tr>
+<td>theme.favicon</td>
+<td>Site favicon resource relative URI</td>
+<td>No</td>
+<td><code>null</code></td>
+</tr>
+<tr>
+<td>extra.social</td>
+<td>Array of social objects (type and link)</td>
+<td>No</td>
+<td><code>null</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="site-name">site_name</h3>
+<table>
+<thead>
+<tr>
+<th>Required</th>
+<th>Default value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yes</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Documentation site name. By default, this parameter is used as website title and as page metadata.</p>
+<p>Configuration example:</p>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<pre><code class="hljs language-yml"><span class="hljs-attr">name:</span> <span class="hljs-string">Docarys</span> <span class="hljs-string">documentation</span> <span class="hljs-string">website</span>
+</code></pre>
+</div>
+<h3 id="pages">pages</h3>
+<table>
+<thead>
+<tr>
+<th>Required</th>
+<th>Default value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>This configuration property contains an object array, describing site's page tree structure. Docarys will walk the tree in the described order, creating all the page metadata and links required.</p>
+<div class="admonition tip">
+<p class="admonition-title">Take control of your website structure with &quot;pages&quot;</p>
+<p>This parameter is not mandatory. However, it is highly recommended to create the title and file association in the configuration file. Otherwise, docarys will use the disk tree structure to create the website, and you'll miss control over important things, like order or page title.</p>
+</div>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<pre><code class="hljs language-yml"><span class="hljs-attr">pages:</span>
+<span class="hljs-attr">  - Docarys:</span>
+<span class="hljs-attr">    - Home:</span> <span class="hljs-string">index.md</span>
+<span class="hljs-attr">    - Installation:</span> <span class="hljs-string">docarys/installation.md</span>
+<span class="hljs-attr">    - Configuration:</span> <span class="hljs-string">docarys/configuration.md</span>
+<span class="hljs-bullet">    -</span> <span class="hljs-string">Get</span> <span class="hljs-attr">started:</span> <span class="hljs-string">docarys/get-started.md</span>
+<span class="hljs-attr">    - License:</span> <span class="hljs-string">license.md</span>
+<span class="hljs-bullet">  -</span> <span class="hljs-string">Material</span> <span class="hljs-string">for</span> <span class="hljs-attr">Docarys:</span>
+<span class="hljs-attr">      - Index:</span> <span class="hljs-string">material/index.md</span>
+</code></pre>
+</div>
+<h3 id="metadescription">meta.description</h3>
+<table>
+<thead>
+<tr>
+<th>Required</th>
+<th>Default value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td><code>null</code></td>
+</tr>
+</tbody>
+</table>
+<p>This parameter is used, by default in Material for Docarys, to add the metadata &quot;dsecription&quot; in the page header.</p>
+<p>It is also possible to configure this meta header using the <code>site_description</code> configuration, inherited from MKDocs for backward compatibility. However, if you are migrating from MKDocs to docarys, is highly recommeded to use docarys notation</p>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<pre><code class="hljs language-yml"><span class="hljs-attr">meta:</span>
+<span class="hljs-attr">  description:</span> <span class="hljs-string">Yet</span> <span class="hljs-string">another</span> <span class="hljs-string">static</span> <span class="hljs-string">web</span> <span class="hljs-string">site</span> <span class="hljs-string">utility</span> <span class="hljs-string">for</span> <span class="hljs-string">technical</span> <span class="hljs-string">documentation.</span>
+</code></pre>
+</div>
+<h3 id="metaauthor">meta.author</h3>
+<table>
+<thead>
+<tr>
+<th>Required</th>
+<th>Default value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td><code>null</code></td>
+</tr>
+</tbody>
+</table>
+<p>This parameter is used, by default in Material for Docarys, to add the metadata &quot;author&quot; in the page header.</p>
+<p>It is also possible to configure this meta header using the <code>site_author</code> configuration, inherited from MKDocs for backward compatibility. However, if you are migrating from MKDocs to docarys, is highly recommeded to use docarys notation</p>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<pre><code class="hljs language-yml"><span class="hljs-attr">meta:</span>
+<span class="hljs-attr">  author:</span> <span class="hljs-string">Sergio</span> <span class="hljs-string">Sisternes</span>
+</code></pre>
+</div>
+<h3 id="site-url">site_url</h3>
+<table>
+<thead>
+<tr>
+<th>Required</th>
+<th>Default value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td><code>null</code></td>
+</tr>
+</tbody>
+</table>
+<p>Canonical URL where this documentation site is found.</p>
+<p>By default, Material for docarys uses it to create a link from the header logo to the main docs page.</p>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<pre><code class="hljs language-yml"><span class="hljs-attr">site_url:</span> <span class="hljs-attr">http://docs.docarys.io</span>
+</code></pre>
+</div>
+<h3 id="repo-name">repo_name</h3>
+<table>
+<thead>
+<tr>
+<th>Required</th>
+<th>Default value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td><code>null</code></td>
+</tr>
+</tbody>
+</table>
+<p>When set, instructs docarys which repository is linked to this project, displaying the name and stastics accordingly.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The intent for this property is to point where your project source code is. Not where the documentation source is. This way, if your code is hosted in Github, docarys will display your project statics (starts and forks), instead of the documenation ones.</p>
+</div>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<pre><code class="hljs language-yml"><span class="hljs-attr">repo_name:</span> <span class="hljs-string">docarys/docarys</span>
+</code></pre>
+</div>
+<h3 id="repo-url">repo_url</h3>
+<table>
+<thead>
+<tr>
+<th>Required</th>
+<th>Default value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td><code>null</code></td>
+</tr>
+</tbody>
+</table>
+<p>When set, instructs docarys which SCM repository should by linked with this documentation site. This URL can be different from the documentation SCM repository.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The intent for this property is to point where your project source code is. Not where the documentation source is. This way, if your code is hosted in Github, docarys will display your project statics (starts and forks), instead of the documenation ones.</p>
+</div>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<pre><code class="hljs language-yml"><span class="hljs-attr">repo_url:</span> <span class="hljs-attr">https://github.com/docarys/docarys</span>
+</code></pre>
+</div>
+<h3 id="edit-url">edit_url</h3>
+<table>
+<thead>
+<tr>
+<th>Required</th>
+<th>Default value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td><code>null</code></td>
+</tr>
+</tbody>
+</table>
+<p>When set, edit_url indicates docarys where the actual markdown pages can be edited. Docarys expects a Canonical URL to the root SCM repository. Docarys will complete the edit route automatically, making a concatenaton of edit_url and the page it is rendering. You can give a try to this features by clicking the &quot;pencil&quot; icon you can find in the top of this page.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The intent for this property is to point where your documentation source code is.</p>
+</div>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<pre><code class="hljs language-yml"><span class="hljs-attr">edit_uri:</span> <span class="hljs-attr">https://github.com/docarys/docs/blob/master</span>
+</code></pre>
+</div>
+<h3 id="copyright">copyright</h3>
+<table>
+<thead>
+<tr>
+<th>Required</th>
+<th>Default value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td><code>null</code></td>
+</tr>
+</tbody>
+</table>
+<p>Copyright information to be included in the site.</p>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<pre><code class="hljs language-yml"><span class="hljs-attr">copyright:</span> <span class="hljs-string">'Copyright &amp;copy; 2017 - 2018 Sergio Sisternes'</span>
+</code></pre>
+</div>
+<h3 id="google-analytics">google_analytics</h3>
+<table>
+<thead>
+<tr>
+<th>Required</th>
+<th>Default value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No</td>
+<td><code>null</code></td>
+</tr>
+</tbody>
+</table>
+<p>When specified, adds the google analytics tracking configuration to the page.</p>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<pre><code class="hljs language-yml"><span class="hljs-attr">copyright:</span> <span class="hljs-string">'Copyright &amp;copy; 2017 - 2018 Sergio Sisternes'</span>
+</code></pre>
+</div>
+<h2 id="support-source-control-management-systems">Support Source Control Management systems</h2>
+<p>The following SCM tools are supported by docarys out of the box:</p>
+<table>
+<thead>
+<tr>
+<th>SCM</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Gihub</td>
+</tr>
+<tr>
+<td>Gitlab</td>
+</tr>
+<tr>
+<td>Bitbucket</td>
+</tr>
+<tr>
+<td>Other Git</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="admonition-title">About other Git servers</p>
+<p>Using other Git servers/services is possible. However, the theme won't provide you the logo or other repository information.</p>
+</div>
+
+                
+                  
+                
+              
+              
+                
+
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        <footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="/docarys/installation.html" title="Installation" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Installation
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="/docarys/get-started.html" title="Get started" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Get started
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2017 - 2018 Sergio Sisternes
+          </div>
+        
+        powered by
+        <a href="http://www.docarys.io" title="docarys">docarys</a>
+        and
+        <a href="https://github.com/docarys/docarys-material/" title="Material for docarys">
+          Material for docarys</a>
+        
+        <div>
+          Version <span class="md-footer-copyright__highlight">7eb9f5f506e4bdd72b108ea8c705c76a88a362c4 </span> from <span class="md-footer-copyright__highlight">master
+</span>
+        </div>
+      
+        </div>
+      
+        
+  <div class="md-footer-social">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+      <a href="https://github.com/sesispla" class="md-footer-social__link fa fa-github-alt"></a>
+    
+      <a href="https://twitter.com/sesispla" class="md-footer-social__link fa fa-twitter"></a>
+    
+      <a href="https://linkedin.com/in/sesispla" class="md-footer-social__link fa fa-linkedin"></a>
+    
+  </div>
+
+
+      
+    </div>
+  </div>
+</footer>
+
+      
+    </div>
+    
+      <script src="/assets/javascripts/application.7f981a90.js"></script>
+      
+      <script>app.initialize({version:"",url:{base:""}})</script>
+      
+    
+    
+      
+    
+  </body>
+</html>
